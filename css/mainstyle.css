@@ -1,52 +1,43 @@
-*
-{
-    margin:0;
-    padding:0;
+body{
+    color:green;
+    background:white;
 }
-#container
-{
-    width: 100%;
-    border:1px solid blue;
-    background: gray;
-    float:left;
-    top:60px;
-    text-indent: 0px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
 }
-#container ul
-{
-    float:left;
-    list-style: none;
+address{
+    font-size: 0.9em;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
 }
-#container ul li
-{
-    position: relative;
-    float: left;
+blockquote{
+    background-color: silver;
 }
-#container ul li a
-{
-    display: block;
-    color:black;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 3em 6px;
+ul {
+    list-style: circle url("../images/Apple.jpg") outside;
 }
-#container li a:hover
-{
-    color: white;
-    background: orange;
+ul b {
+    color:rgb(155,0,0)
 }
-#container li ul
-{
-    position:absolute;
-    display: none;
-    width:10em;
+a{
+    font-size: 0.9em;
+    color:green
 }
-#container li:hover ul
-{
-    display:block;
+a:hover {
+    color: red;
+    text-transform: uppercase;
+    font-weight:bold;
 }
-#container ul li ul li
-{
-    width: 100%;
-    border: 1px solid green;
+special{
+    color:rgb(153,102,6);
+    font-weight:bold;
+}
+div.Article{
+    padding:0.5em;
+    border-style:solid;
+    border-width: 2px;
+    background-color: rbg(252,221,163);
+    width:250px;
+    float:right;
 }
